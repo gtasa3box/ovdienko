@@ -13,7 +13,28 @@
     transition: 0.3s ease;
     width: 248px;
     height: 50px;
+    cursor: pointer;
     &:hover {
         background-color: #082d4f;
+    }
+    &_trans {
+        color: #063f73;
+        font-size: 14px;
+        font-family: 'Bodoni',Arial,sans-serif;
+        line-height: 1.1;
+        font-weight: 500;
+        border-width: 2px;
+        border-radius: 10px;
+        background-position: center center;
+        border-color: #063f73;
+        border-style: solid;
+        background-color: transparent;
+        width: 157px;
+        height: 38px;
+        cursor: pointer;
+        &:hover {
+            background-color: #063f73;
+            color: white;
+        }
     }
 }
