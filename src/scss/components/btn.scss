@@ -1,0 +1,19 @@
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Bodoni',Arial,sans-serif;
+    line-height: 1.2;
+    font-weight: 300;
+    border-width: 1px;
+    border-radius: 10px;
+    background-color: #063f73;
+    transition: 0.3s ease;
+    width: 248px;
+    height: 50px;
+    &:hover {
+        background-color: #082d4f;
+    }
+}

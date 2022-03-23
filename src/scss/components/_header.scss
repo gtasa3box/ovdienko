@@ -1,4 +1,10 @@
 .header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
     &__content {
         display: flex;
         justify-content: space-between;
@@ -9,6 +15,9 @@
         width: 220px;
         height: 36px;
         flex: 1;
+        a {
+            width: 220px;
+        }
     }
     &__nav {
         flex: 1;
