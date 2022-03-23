@@ -1,1 +1,2 @@
-console.log('components');
+//img focus scroll
+
