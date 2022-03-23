@@ -1,8 +1,7 @@
 //Bodoni
-@include font-face("Bodoni", "../fonts/Bodoni/BodoniClassicText-CyrillicLight", 300, normal);
-@include font-face("Bodoni", "../fonts/Bodoni/BodoniClassic-CyrillicRoman", 400, normal);
-@include font-face("Bodoni", "../fonts/Bodoni/BodoniClassicText-CyrillicRoman", 500, normal);
-@include font-face("Bodoni", "../fonts/Bodoni/BodoniClassicText-CyrillicBold", 700, normal);
+@include font-face("Bodoni", "../fonts/Bodoni/BodoniLight", 300, normal);
+@include font-face("Bodoni", "../fonts/Bodoni/BodoniRegular", 500, normal);
+@include font-face("Bodoni", "../fonts/Bodoni/BodoniBold", 700, normal);
 
 //Mazzard
 @include font-face("Mazzard", "../fonts/Mazzard/MazzardH-ExtraBold", 800, normal);
