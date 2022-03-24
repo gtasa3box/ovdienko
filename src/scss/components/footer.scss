@@ -1,0 +1,66 @@
+.footer {
+    background-color: white;
+    padding: 60px 0 80px;
+    &__content {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__elem {
+        display: flex;
+        flex-direction: column;
+    }
+    &__logo {
+        width: 220px;
+        height: 36px;
+    }
+    &__number {
+        color: rgb(6, 63, 115);
+        font-size: 16px;
+        font-family: 'Bodoni',Arial,sans-serif;
+        line-height: 1.55;
+        font-weight: 400;
+        transition: 0.3s ease;
+        margin-top: 20px;
+        cursor: pointer;
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+    &__mail {
+        color: rgb(6, 63, 115);
+        font-size: 16px;
+        font-family: 'Bodoni',Arial,sans-serif;
+        line-height: 1.55;
+        font-weight: 400;
+        transition: 0.3s ease;
+        cursor: pointer;
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+    &__politic {
+        color: rgb(107, 107, 107);
+        text-align: center;
+        font-size: 16px;
+        font-family: 'Bodoni',Arial,sans-serif;
+        line-height: 1.55;
+        font-weight: 300;
+        text-decoration: underline;
+        transition: 0.3s ease;
+        margin-bottom: 20px;
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+    &__req {
+        color: #6b6b6b;
+        font-size: 13px;
+        font-family: 'Bodoni',Arial,sans-serif;
+        line-height: 1.05;
+        font-weight: 300;
+        text-align: center;
+    }
+    &__btn {
+        margin-top: -15px;
+    }
+}
