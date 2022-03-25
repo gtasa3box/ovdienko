@@ -4,4 +4,14 @@
     @media (max-width:1240px) {
         padding: 0 20px;
     }
+    @media (max-width:1199px) {
+        max-width: 1000px;
+        padding: 0;
+    }
+    &_header {
+        @media (max-width:1199px) {
+            padding: 0 20px;
+            max-width: 1200px;
+        }
+    }
 }
