@@ -17,3 +17,10 @@ document.querySelector('#phone').addEventListener('input',
     this.value = this.value.replace(/[^\d.]/g, '');
     }
 )
+//burger 
+$('.burger').click(function(){
+    $(this).toggleClass("active");
+    $('.header__nav').toggleClass("active");
+    $('.grey-back').toggleClass("active");
+    $('body').toggleClass("hidden");
+});

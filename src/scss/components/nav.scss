@@ -1,6 +1,10 @@
 .nav {
     display: flex;
     justify-content: space-between;
+    @media (max-width:980px) {
+        flex-direction: column;
+        margin-top: 20px;
+    }
     &__elem {
         display: block;
         color: #000000;
@@ -9,6 +13,11 @@
         padding: 0 20px;
         white-space: nowrap;
         transition: 0.3s ease;
+        @media (max-width:980px) {
+            padding: 0;
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
         &:first-child {
             padding-left: 0;
         }

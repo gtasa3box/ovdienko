@@ -2,4 +2,7 @@ body {
     font-family: 'Bodoni',sans-serif;
     font-weight: 300;
     background-color: #fbfbfc;
+    &.hidden {
+        overflow: hidden;
+    }
 }
