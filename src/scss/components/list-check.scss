@@ -18,6 +18,14 @@
         align-items: center;
         margin-left: 48px;
         padding-top: 15px;
+        @media (max-width:959px) {
+            font-size: 15px;
+        }
+        @media (max-width:479px) {
+            font-size: 13px;
+            height: 40px;
+            padding-top: 10px;
+        }
         &::before {
             content: '';
             position: absolute;
@@ -30,6 +38,11 @@
             left: -48px;
             top: 50%;
             transform: translateY(-50%);
+            @media (max-width:479px) {
+                width: 30px;
+                height: 40px;
+                left: -30px;
+            }
         }
         span {
             color: rgb(6, 63, 115);
