@@ -4,6 +4,15 @@
     font-family: 'Bodoni',Arial,sans-serif;
     line-height: 1.05;
     font-weight: 700;
+    @media (max-width:959px) {
+        font-size: 36px;
+    }
+    @media (max-width:639px) {
+        font-size: 30px;
+    }
+    @media (max-width:479px) {
+        font-size: 28px;
+    }
     &_center {
         text-align: center;
     }

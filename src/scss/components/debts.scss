@@ -1,5 +1,8 @@
 .debts {
     padding-top: 100px;
+    @media (max-width:959px) {
+        padding-top: 50px;
+    }
     .title {
         max-width: 803px;
         margin: 0 auto;
@@ -8,5 +11,16 @@
         display: flex;
         justify-content: center;
         padding-top: 50px;
+        img {
+            @media (max-width:959px) {
+                display: none;
+            }
+        }
+        img:last-child {
+            display: none;
+            @media (max-width:959px) {
+                display: block;
+            }
+        }
     }
 }
