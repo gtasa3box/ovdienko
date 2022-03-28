@@ -4,10 +4,22 @@
     &__content {
         display: flex;
         justify-content: space-between;
+        @media (max-width:959px) {
+            flex-direction: column;
+            align-items: center;
+        }
     }
     &__elem {
         display: flex;
         flex-direction: column;
+        @media (max-width:959px) {
+            align-items: center;
+        }
+        &_inf {
+            @media (max-width:959px) {
+                order: 1;
+            }
+        }
     }
     &__logo {
         width: 220px;
@@ -62,5 +74,9 @@
     }
     &__btn {
         margin-top: -15px;
+        @media (max-width:959px)  {
+            margin-top: 0;
+            margin: 20px 0;
+        }
     }
 }

@@ -1,6 +1,12 @@
 .result {
     padding-top: 100px;
     padding-bottom: 80px;
+    @media (max-width:959px) {
+        padding-bottom: 40px;
+    }
+    @media (max-width:639px) {
+        padding-top: 0px;
+    }
     &__content {
         display: flex;
         flex-direction: column;
@@ -12,12 +18,20 @@
             justify-content: center;
             margin-top: 80px;
             width: fit-content;
+            @media (max-width:959px) {
+                flex-wrap: wrap;
+                margin-top: 40px;
+            }
         }
         &-bottom {
             display: flex;
             justify-content: center;
             margin-top: 80px;
             width: fit-content;
+            @media (max-width:959px) {
+                flex-wrap: wrap;
+                margin-top: 40px;
+            }
         }
     }
     &__elem {
@@ -26,6 +40,14 @@
         align-items: center;
         padding: 0 20px;
         flex: 1;
+        @media (max-width:959px) {
+            width: 45%;
+            flex: initial;
+            margin-top: 20px;
+        }
+        @media (max-width:639px) {
+            width: 100%;
+        }
         &_2 {
 
         }
@@ -61,5 +83,8 @@
     }
     &__btn {
         margin-top: 80px;
+        @media (max-width:959px) {
+            margin-top: 40px;
+        }
     }
 }
