@@ -1,8 +1,12 @@
 body {
+    scroll-behavior: smooth;
     font-family: 'Bodoni',sans-serif;
     font-weight: 300;
     background-color: #fbfbfc;
     &.hidden {
         overflow: hidden;
     }
+}
+.site-container {
+    scroll-behavior: smooth;
 }

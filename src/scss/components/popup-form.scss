@@ -3,6 +3,10 @@
     display: none;
     padding: 40px 45px !important;
     cursor: default !important;
+    @media (max-width:639px) {
+        width: 100%;
+        padding: 30px 20px !important;
+    }
     &__title {
         font-size: 36px;
         line-height: 1.23;

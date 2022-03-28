@@ -24,3 +24,11 @@ $('.burger').click(function(){
     $('.grey-back').toggleClass("active");
     $('body').toggleClass("hidden");
 });
+
+//nav-mob
+$('.nav__elem').click(function(){
+    $('.burger').removeClass("active");
+    $('.header__nav').removeClass("active");
+    $('.grey-back').removeClass("active");
+    $('body').removeClass("hidden");
+});
