@@ -4,6 +4,10 @@
     .title {
         max-width: 505px;
         margin: 0 auto;
+        &_2 {
+            max-width: none;
+            margin: 40px 0 20px;
+        }
     }
     &__content {
         margin-top: 80px;
@@ -82,9 +86,14 @@
                 font-weight: 300;
             }
             ul {
-                margin-top: 10px;
+                margin: 10px 0;
                 padding-left: 20px;
                 list-style: disc;
+            }
+            ol {
+                margin: 10px 0;
+                padding-left: 20px;
+                list-style: decimal;
             }
         }
     }
